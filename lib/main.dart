@@ -21,6 +21,7 @@ void main() async {
   }
 
 
+
   WidgetsFlutterBinding.ensureInitialized();
   AppCache.instance.init().then((value) {
     Firebase.initializeApp().then((value) async {
