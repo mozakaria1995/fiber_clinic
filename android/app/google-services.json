@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "251155332168",
+    "project_id": "doctor-1e9ca",
+    "storage_bucket": "doctor-1e9ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251155332168:android:388f08832c2d696f7eac7d",
+        "android_client_info": {
+          "package_name": "com.amadoctorsdigitalsystem.fiber_clinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251155332168-8qi3t6oq12gnn1v6ingf3867dgtqnf2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amadoctorsdigitalsystem.fiber_clinic",
+            "certificate_hash": "661accee368adda448249a542018e7eb288bc088"
+          }
+        },
+        {
+          "client_id": "251155332168-th411fqn2qhcmtee53j438g1i8hreaon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRjHBg0GcGnnZGnE66fCMK177RFuSI6wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251155332168-th411fqn2qhcmtee53j438g1i8hreaon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
