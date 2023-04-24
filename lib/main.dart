@@ -19,6 +19,7 @@ void main() async {
   if (defaultTargetPlatform == TargetPlatform.android) {
     HttpOverrides.global = MyHttpOverrides();
   }
+
   WidgetsFlutterBinding.ensureInitialized();
   AppCache.instance.init().then((value) {
     Firebase.initializeApp().then((value) async {
