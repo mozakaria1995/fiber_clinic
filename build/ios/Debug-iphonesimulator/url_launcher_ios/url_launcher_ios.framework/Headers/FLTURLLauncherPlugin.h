@@ -4,7 +4,5 @@
 
 #import <Flutter/Flutter.h>
 
-#import "messages.g.h"
-
-@interface FLTURLLauncherPlugin : NSObject <FlutterPlugin, FULUrlLauncherApi>
+@interface FLTURLLauncherPlugin : NSObject <FlutterPlugin>
 @end

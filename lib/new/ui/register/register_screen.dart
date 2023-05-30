@@ -260,6 +260,7 @@ class _RegisterScreenState extends BaseState<RegisterScreen, RegisterBloc> {
                                   Center(
                                     child: InputFieldWidget(
                                       validationText: "",
+                                      isPassword:true,
                                       textInputAction: TextInputAction.next,
                                       onchange: (val) {
                                         setState(() {
@@ -267,7 +268,7 @@ class _RegisterScreenState extends BaseState<RegisterScreen, RegisterBloc> {
                                         });
                                       },
                                       validation:
-                                          passwordController.text.isNotEmpty,
+                                      passwordController.text.isNotEmpty,
                                       width: size.width,
                                       lines: 1,
                                       controller: passwordController,
@@ -275,9 +276,9 @@ class _RegisterScreenState extends BaseState<RegisterScreen, RegisterBloc> {
                                       height: AppSize.s60,
                                       suffix: passwordController.text.isNotEmpty
                                           ? Image.asset(
-                                              "assets/images/check.png")
+                                          "assets/images/check.png")
                                           : Image.asset(
-                                              "assets/images/error-icon.png"),
+                                          "assets/images/error-icon.png"),
                                     ),
                                   ),
                                   const SizedBox(
@@ -291,6 +292,7 @@ class _RegisterScreenState extends BaseState<RegisterScreen, RegisterBloc> {
                                   ),
                                   Center(
                                     child: InputFieldWidget(
+                                      isPassword:true,
                                       textInputAction: TextInputAction.next,
                                       onchange: (val) {
                                         setState(() {
@@ -301,20 +303,20 @@ class _RegisterScreenState extends BaseState<RegisterScreen, RegisterBloc> {
                                       validation: passwordController.text ==
                                           passwordConfirmationController.text,
                                       validationText:
-                                          AppStrings.inValidPassword,
+                                      AppStrings.inValidPassword,
                                       width: size.width,
                                       lines: 1,
                                       controller:
-                                          passwordConfirmationController,
+                                      passwordConfirmationController,
                                       obscure: true,
                                       height: AppSize.s60,
                                       suffix: (passwordController.text ==
-                                              passwordConfirmationController
-                                                  .text)
+                                          passwordConfirmationController
+                                              .text)
                                           ? Image.asset(
-                                              "assets/images/check.png")
+                                          "assets/images/check.png")
                                           : Image.asset(
-                                              "assets/images/error-icon.png"),
+                                          "assets/images/error-icon.png"),
                                     ),
                                   ),
                                   const SizedBox(

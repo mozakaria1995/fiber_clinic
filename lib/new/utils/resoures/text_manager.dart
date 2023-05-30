@@ -15,6 +15,8 @@ class AppStrings{
   static const String signUpQuestion = "ليس لديك حساب؟ ";
   static const String signinQuestion = "لديك حساب؟ ";
   static const String signUp = "تسجيل الآن";
+  static const String passwordT = " كلمة المرور";
+
   static const String createAccount = "انشاء حساب";
   static const String signUpOptions = "يمكنك ايضاً التسجيل من خلال";
   static const String signIn = "تسجيل دخول";

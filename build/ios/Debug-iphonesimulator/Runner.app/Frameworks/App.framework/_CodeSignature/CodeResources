@@ -18,23 +18,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		ARHGO4DEht8a561o9BGWjZOTYk4=
-		</data>
-		<key>flutter_assets/assets/fonts/PNU-Bold.ttf</key>
-		<data>
-		4u+HM+3Ps6Z+7PQ1HEpl/MMLtUA=
-		</data>
-		<key>flutter_assets/assets/fonts/PNU-Light.ttf</key>
-		<data>
-		JJKwmPdYu/QGjUpozX1Mc3Uvxvs=
-		</data>
-		<key>flutter_assets/assets/fonts/PNU-Medium.ttf</key>
-		<data>
-		VVgT1isQnNRTxKv1NXHUFDK54VQ=
-		</data>
-		<key>flutter_assets/assets/fonts/PNU-Regular.ttf</key>
-		<data>
-		L7Imhz2ZMLVODrkt/aqiUrLTuC0=
+		NwxcpIAyEw9BedWF3Zb0qGch3F4=
 		</data>
 		<key>flutter_assets/assets/fonts/Poppins-Bold.ttf</key>
 		<data>
@@ -148,10 +132,6 @@
 		<data>
 		4R7/BuchIEo3PgTWPnXs4tNBlMk=
 		</data>
-		<key>flutter_assets/assets/images/App%20Icon.png</key>
-		<data>
-		0/IRXQb/E9IjWaf6FDe4YJN3duQ=
-		</data>
 		<key>flutter_assets/assets/images/app-logo.png</key>
 		<data>
 		E3VBjwK0ldk5EA85YGqFEqqNpg4=
@@ -196,10 +176,6 @@
 		<data>
 		ml3w3AFfh05fBHJpFfs9T0F+XZQ=
 		</data>
-		<key>flutter_assets/assets/images/logo.png</key>
-		<data>
-		bABXwW0VYDh0R1afu+1FT5ukDY8=
-		</data>
 		<key>flutter_assets/assets/images/onboarding_illustration.png</key>
 		<data>
 		aZ8FadqJaK1MwEeor/Fz6Uh81Jo=
@@ -218,7 +194,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		w21sa9rQl0n+z1S+mC1zdKaE6ig=
+		LpU0o/hovktTfw/ID5jAZ6zFyLQ=
 		</data>
 		<key>flutter_assets/packages/awesome_dialog/assets/flare/error.flr</key>
 		<data>
@@ -1489,35 +1465,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Q8wDahTMklhx3VICCDANM6QJWo0n18WBXuK6m/ecfM=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/fonts/PNU-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UQq2CVcsomH9H2OSx0BWMMXgAfTCxD3uAw467GkfANw=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/fonts/PNU-Light.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QYnT0zUV88mkBI5dDKFHo4VJBpD39ipSUJF2RHUEE64=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/fonts/PNU-Medium.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kJXIvOGOetrmeNCjrvsY4Cn06xDSg5wXy+P6NngONdk=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/fonts/PNU-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ksuSfPyRtXEJDIHbJmozq8uPieeUyQTx1wiuD2eBsMc=
+			Y5J9mzs5YgNv3irSm5PZShymxIHIKsYmFKgs/u/cxLM=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/fonts/Poppins-Bold.ttf</key>
@@ -1716,13 +1664,6 @@
 			1oimfB1kDjc19lI9PcuXohlHzruR3IZ/ersMMGABndU=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/images/App%20Icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pz8+20FK4OEmlmKRsbpcOeAgyboo66IFgi13E92sCwY=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/images/app-logo.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1800,13 +1741,6 @@
 			dPoRQY4saBEyEWLLM0d4KwX118QzHX4xpJHvydbUgeU=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/images/logo.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			82QInovi9CAkqx0FZuyAtr8XcgupzpyiZjJWhdDgbFw=
-			</data>
-		</dict>
 		<key>flutter_assets/assets/images/onboarding_illustration.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1839,7 +1773,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DK9cStw3sYSgFj4TGq7GXyjqqKKFxV8CEKuO4hEH3z0=
+			vc7+cJBPE1pZDPgBw9+7fvHcafSZZbyB/qUEmBM6cI4=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/awesome_dialog/assets/flare/error.flr</key>

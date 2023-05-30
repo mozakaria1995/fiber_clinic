@@ -52,7 +52,7 @@ NS_SWIFT_NAME(FirebaseOptions)
 /**
  * Unused.
  */
-@property(nonatomic, copy, nullable) NSString *trackingID DEPRECATED_ATTRIBUTE;
+@property(nonatomic, copy, nullable) NSString *trackingID;
 
 /**
  * The Project Number from the Google Developer's console, for example @"012345678901", used to
@@ -68,7 +68,7 @@ NS_SWIFT_NAME(FirebaseOptions)
 /**
  * Unused.
  */
-@property(nonatomic, copy, nullable) NSString *androidClientID DEPRECATED_ATTRIBUTE;
+@property(nonatomic, copy, nullable) NSString *androidClientID;
 
 /**
  * The Google App ID that is used to uniquely identify an instance of an app.

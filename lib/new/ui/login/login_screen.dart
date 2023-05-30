@@ -145,13 +145,15 @@ class _LoginScreenState extends BaseState<LoginScreen, LoginBloc> {
                                     height: AppSize.s10,
                                   ),
                                   TitleWidget(
-                                    title: AppStrings.passwordTitle,
+                                    title: AppStrings.passwordT,
                                   ),
                                   const SizedBox(
                                     height: AppSize.s8,
                                   ),
                                   Center(
                                     child: InputFieldWidget(
+                                      isPassword:true,
+
                                       onchange: (val) {
                                         setState(() {
                                           passwordController.text.isNotEmpty;
@@ -257,6 +259,7 @@ class _LoginScreenState extends BaseState<LoginScreen, LoginBloc> {
                                           const SizedBox(
                                             height: AppSize.s10,
                                           ),
+                                          if(Platform.isAndroid)
                                           Center(
                                             child: AppButton(
                                               onPressed: () async {

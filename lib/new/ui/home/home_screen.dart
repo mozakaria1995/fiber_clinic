@@ -19,6 +19,8 @@ import 'package:auth_manager/new/widgets/service_card_widget.dart';
 import 'package:auth_manager/new/widgets/title_widget.dart';
 import 'package:flutter/material.dart';
 
+import '../landing/landing_screen.dart';
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -198,17 +200,25 @@ class _HomeScreenState extends BaseState<HomeScreen, HomeBloc> {
         await bloc.requestCashOnDeliverReservation(reservationRequestModel);
     if (reservationResponse != null) {
       Navigator.pop(context);
-      setState(() {
+      navigateToReplacement(LandingScreen());
+      // setState(() {
 
-          schedules!
-              .firstWhere((element) => element.date == scheduleDate)
-              .availableSlots.removeWhere(
-                  (element) => element == reservationRequestModel.time);
+      // print(schedules.length);
+      //
+      // schedules
+      //     .firstWhere((element) {
+      //
+      //   print(element);
+      //       return element.date == scheduleDate;
+      //     })
+      //     .availableSlots.removeWhere(
+      //         (element) => element == reservationRequestModel.time);
 
-      });
-      bloc.getMyReservationsList();
+      // });
+      // bloc.getMyReservationsList();
       showSuccessMsg("تم حجز الموعد بنجاح");
     }
+
   }
 
   void creditReservation(

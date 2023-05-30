@@ -42,50 +42,50 @@ class _ProfileScreenState extends BaseState<ProfileScreen, ProfileBloc> {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 TitleWidget(title: 'حجوزاتي'),
-                SizedBox(height: FontSizeManager.s20),
-                Container(
-                  height: AppSize.s200,
-                  child: StreamBuilder<MyReservationsModel?>(
-                    stream: bloc.myReservationsController.stream,
-                    builder: (context,
-                        AsyncSnapshot<MyReservationsModel?> snapshot) {
-                      if (snapshot.hasData &&
-                          snapshot.data!.reservationsList!.length > 0) {
-                        myReservationsList = snapshot.data!.reservationsList!;
-                        return ListView.builder(
+                const SizedBox(height: FontSizeManager.s20),
+                StreamBuilder<MyReservationsModel?>(
+                  stream: bloc.myReservationsController.stream,
+                  builder:
+                      (context, AsyncSnapshot<MyReservationsModel?> snapshot) {
+                    if (snapshot.hasData &&
+                        snapshot.data!.reservationsList!.isNotEmpty) {
+                      myReservationsList = snapshot.data!.reservationsList!;
+                      return Container(
+                        height: 200,
+                        child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemCount: myReservationsList!.length,
+                          clipBehavior: Clip.none,
                           itemBuilder: (context, index) => AppointmentCard(
-                            isProfile: true,
                             reservationModel: myReservationsList![index],
                             onCancelClicked: () => openCancelConfirmationDialog(
                                 myReservationsList![index].id!),
                           ),
-                        );
-                      } else if (snapshot.data?.reservationsList?.length == 0) {
-                        return Container();
-                      } else if (snapshot.hasError) {
-                        return Center();
-                      } else {
-                        return Center(child: CircularProgressIndicator());
-                      }
-                    },
-                  ),
+                        ),
+                      );
+                    } else if (snapshot.data?.reservationsList?.length == 0) {
+                      return Container();
+                    } else if (snapshot.hasError) {
+                      return Center();
+                    } else {
+                      return Center(child: CircularProgressIndicator());
+                    }
+                  },
                 ),
-                SizedBox(height: AppSize.s15),
+                const SizedBox(height: AppSize.s15),
                 ProfileListTileItem(
                     icon: Icons.account_circle,
                     title: "الملف الشخصي",
                     onClicked: ()=>navigateTo(UserProfileScreen()) ),
-                ProfileListTileItem(
+                const ProfileListTileItem(
                     icon: Icons.location_on,
                     title: "الموقع",
                     onClicked: openMap),
-                ProfileListTileItem(
+                const ProfileListTileItem(
                     icon: FontAwesomeIcons.whatsapp,
                     title: "تواصل معنا عبر واتساب",
                     onClicked: openWhatsAppChat),
-                ProfileListTileItem(
+                const ProfileListTileItem(
                     icon: FontAwesomeIcons.facebook,
                     title: "تواصل معنا عبر فيسبوك",
                     onClicked: openFacebook),
